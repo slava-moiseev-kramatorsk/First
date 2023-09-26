@@ -6,9 +6,11 @@ import java.sql.SQLOutput;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-String[] str = new String[] {"Rfr", "fdfg", "Rumpel","eanins"};
-PaginationService pg = new PaginationService(str, 2);
-pg.getElementsCount();
+    String[] str = new String[] {"Rfr", "fdfg", "Rumpel","eanins"};
+    PaginationService pg = new PaginationService(str, 2);
+    pg.getElementsCount();
+    String commitOnGit = "second commit";
+
     }
     }
 
